@@ -69,6 +69,10 @@
     "ruby.lint": {
         "rubocop": true
     },
+    "search.exclude": {
+      // Inherits all glob patterns from the `files.exclude` setting.
+      "**/.venv": true
+    },
     "telemetry.telemetryLevel": "off",
     "window.restoreWindows": "none",
     "window.newWindowDimensions": "maximized",
@@ -78,6 +82,7 @@
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
+    "workbench.panel.defaultLocation": "right",
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "liveServer.settings.donotShowInfoMsg": true,
     "security.workspace.trust.untrustedFiles": "open",
