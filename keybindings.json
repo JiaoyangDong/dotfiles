@@ -9,5 +9,14 @@
     "key": "cmd+shift+v",
     "command": "pasteAndIndent.action",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "-editor.action.insertCursorAtEndOfEachLineSelected",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+k cmd+m",
+    "command": "workbench.action.toggleEditorWidths"
   }
 ]

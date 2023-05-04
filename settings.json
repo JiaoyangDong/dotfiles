@@ -56,7 +56,6 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "notebook.diff.ignoreMetadata": true,
     "notebook.lineNumbers": "on",
     "notebook.markup.fontSize": 13,
@@ -74,9 +73,28 @@
     "window.restoreWindows": "none",
     "window.newWindowDimensions": "maximized",
     "workbench.editor.enablePreview": true,
-    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+      "*": false,
+      "yaml": false,
+      "plaintext": false,
+      "markdown": false
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
